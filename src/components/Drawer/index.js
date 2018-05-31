@@ -36,7 +36,10 @@ const Item = styled.a`
 `;
 
 // Static data to keep it simple
-const items = [{ url: '/', name: 'Home' }, { url: '/page-2/', name: 'Page 2' }];
+const items = [
+  { url: '/', name: 'Home' },
+  { url: '/contact/', name: 'Contact' },
+];
 
 const Drawer = ({ isDrawerOpen, toggleDrawer }) => (
   <Paper isDrawerOpen={isDrawerOpen}>

@@ -4,7 +4,7 @@ import styled from 'react-emotion';
 
 const Hamburger = styled.span`
   transition: transform 0.3s ease-in-out;
-  transform: ${props => (props.isDrawerOpen ? 'scale(0.7)' : 'scale(0.9)')};
+  transform: ${props => (props.isDrawerOpen ? 'scale(0.5)' : 'scale(0.6)')};
 `;
 
 const Line = styled.span`
