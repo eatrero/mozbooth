@@ -41,10 +41,17 @@ const TemplateWrapper = ({ children, isDrawerOpen, toggleDrawer }) => (
   <ThemeProvider theme={theme}>
     <div>
       <Helmet
-        title="Gatsby Default Redux Starter"
+        title="San Diego Photobooth Rentals"
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          {
+            name: 'description',
+            content:
+              'San Diego Photobooth Rentals for weddings and corporate events',
+          },
+          {
+            name: 'photobooths, corporate events',
+            content: 'sample, something',
+          },
         ]}
       />
       <Container>
